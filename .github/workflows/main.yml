@@ -1,0 +1,8 @@
+- name: Upload to S3
+uses: nikhilMathure/s3-gitaction
+id: S3
+with:
+aws_key_id: ${{secrets.Zm+BDpiavtu4ZIgz7DnMNnTpfdRk1M18ETZccJoX}}
+aws_secret_access_key: ${{secrets.AKIAYG3TSF3LR6UUGUIE}}
+aws_bucket: gitaction-test1
+source_dir:
